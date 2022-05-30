@@ -34,10 +34,14 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/episodio.h" />
 		<Unit filename="include/pelicula.h" />
+		<Unit filename="include/serie.h" />
 		<Unit filename="include/video.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/episodio.cpp" />
 		<Unit filename="src/pelicula.cpp" />
+		<Unit filename="src/serie.cpp" />
 		<Unit filename="src/video.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
