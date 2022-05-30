@@ -33,7 +33,7 @@ class video
         string getTitulo();
         int getDuracion();
         string getGenero();
-        double geCalificacion();
+        double getCalificacion();
 
         // otros metodos
         string str();

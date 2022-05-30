@@ -1,18 +1,39 @@
 # depslib dependency file v1.0
-1653575644 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\main.cpp
+1653882953 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\main.cpp
 	<iostream>
 	"video.h"
 	"pelicula.h"
+	"serie.h"
+	"episodio.h"
 
-1653572609 c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\include\video.h
+1653871067 c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\include\video.h
 	<stdio.h>
 	<iostream>
 
-1653572657 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\src\video.cpp
+1653871073 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\src\video.cpp
 	"video.h"
 
 1653577605 c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\include\pelicula.h
 	"video.h"
 	<stdio.h>
 	<iostream>
+
+1653622684 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\src\pelicula.cpp
+	"pelicula.h"
+
+1653880680 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\src\episodio.cpp
+	"episodio.h"
+
+1653880484 c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\include\episodio.h
+	<stdio.h>
+	<iostream>
+
+1653879139 c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\include\serie.h
+	<stdio.h>
+	<iostream>
+	"video.h"
+	"episodio.h"
+
+1653881661 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\src\serie.cpp
+	"serie.h"
 

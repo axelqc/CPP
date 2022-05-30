@@ -41,7 +41,7 @@ int video::getDuracion(){
 string video::getGenero(){
     return genero;
 }
-double video::geCalificacion(){
+double video::getCalificacion(){
     return calificacionPromedio;
 }
 
