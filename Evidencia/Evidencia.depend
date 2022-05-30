@@ -1,12 +1,12 @@
 # depslib dependency file v1.0
-1653882953 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\main.cpp
+1653922861 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\main.cpp
 	<iostream>
 	"video.h"
 	"pelicula.h"
 	"serie.h"
 	"episodio.h"
 
-1653871067 c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\include\video.h
+1653923003 c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\include\video.h
 	<stdio.h>
 	<iostream>
 
@@ -34,6 +34,6 @@
 	"video.h"
 	"episodio.h"
 
-1653881661 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\src\serie.cpp
+1653883047 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\src\serie.cpp
 	"serie.h"
 

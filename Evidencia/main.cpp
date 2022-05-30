@@ -34,5 +34,26 @@ int main()
 
     cout << stranger.str() << endl;
 
+    // Declaracion arreglo de la clase video
+    // se pone el asterisco
+    // & ponerselo para indicar que son un arreglo de apuntadores
+    video *arrPtrVideo[] = {&martes, &jueves, &stranger};
+
+    // Desplegar los prt (direcciones de memoria)
+    // cout PTRs de video
+    // no se pone flechita
+    cout << "PTRs del arreglo video\n";
+    for(int index=0; index < 3; index++) {
+        cout << arrPtrVideo[index] << endl;
+    }
+
+    // aqui si va con flechas
+    cout << "arreglo video\n";
+    for(int index=0; index < 3; index++) {
+        // a que str() se esta ejecutandose
+        // aqui si va ocn flecha
+        cout << arrPtrVideo[index]->str() << endl;
+    }
+
     return 0;
 }

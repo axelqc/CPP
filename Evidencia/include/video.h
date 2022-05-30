@@ -36,7 +36,7 @@ class video
         double getCalificacion();
 
         // otros metodos
-        string str();
+        virtual string str();
 
 };
 
