@@ -3,6 +3,9 @@
 using namespace std;
 #include <stdio.h>
 #include <iostream>
+#include <sstream>
+#include <fstream>
+
 // composicion con peliculas
 #include "pelicula.h"
 const int MAX_PEL = 50;
@@ -13,7 +16,6 @@ class peliculas
         pelicula *arrPrtPeliculas[MAX_PEL];
         int cantidad;
     public:
-        peliculas(string _iD, string _titulo, int _duracion, string _genero, double _calificacionPromedio, int oscares);
         peliculas();
 
     // otros metodos

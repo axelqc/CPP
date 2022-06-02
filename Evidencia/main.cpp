@@ -3,6 +3,7 @@
 #include "pelicula.h"
 #include "serie.h"
 #include "episodio.h"
+#include "peliculas.h"
 
 using namespace std;
 
