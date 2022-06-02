@@ -9,6 +9,10 @@ pelicula::pelicula(string _iD, string _titulo, int _duracion, string _genero, do
     oscares = _oscares;
 }
 
+pelicula::~pelicula() {
+    cout << "Se destruyo un objeto pelicula" << endl;
+}
+
 // modiciadores - set
 void pelicula::setOscares(int _oscares){
     oscares = _oscares;

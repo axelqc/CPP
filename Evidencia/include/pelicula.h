@@ -17,6 +17,8 @@ class pelicula : public video
         // metodos contructores
         pelicula();
         pelicula(string _iD, string _titulo, int _duracion, string _genero, double _calificacionPromedio, int _oscares);
+        ~pelicula();
+
 
         // modiciadores - set
         void setOscares(int _oscares);
