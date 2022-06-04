@@ -10,13 +10,13 @@ using namespace std;
 #include "pelicula.h"
 const int MAX_PEL = 50;
 
-class peliculas
+class Peliculas
 {
     private:
         Pelicula *arrPrtPeliculas[MAX_PEL];
         int cantidad;
     public:
-        peliculas();
+        Peliculas();
 
     // otros metodos
     void leerArchivo();
