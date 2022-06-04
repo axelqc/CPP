@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1654365311 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\main.cpp
+1654376385 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\main.cpp
 	<iostream>
 	"video.h"
 	"pelicula.h"
@@ -11,7 +11,7 @@
 	<stdio.h>
 	<iostream>
 
-1654362221 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\src\video.cpp
+1654367376 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\src\video.cpp
 	"video.h"
 
 1654361582 c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\include\pelicula.h
@@ -22,7 +22,7 @@
 1654361970 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\src\pelicula.cpp
 	"pelicula.h"
 
-1654361838 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\src\episodio.cpp
+1654367259 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\src\episodio.cpp
 	"episodio.h"
 
 1654361841 c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\include\episodio.h
@@ -45,6 +45,6 @@
 	<fstream>
 	"pelicula.h"
 
-1654365329 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\src\peliculas.cpp
+1654377221 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\src\peliculas.cpp
 	"peliculas.h"
 

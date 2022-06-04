@@ -32,20 +32,31 @@ void Peliculas::leerArchivo()
         }
     arrPrtPeliculas[cantidad] = new Pelicula(row[0], row[1], stoi(row[2]), row[3], stod(row[4]), stoi(row[5]));
 
+    // str de la clase pelicula
     //cout  << arrPrtPeliculas[cantidad]->str() << endl;
 
     cantidad = cantidad + 1;
     }
     fin.close();
+    // cout << "\n archivo cerrado" << endl;
 
-    //for(int iR=0; iR << cantidad; iR++) {
-    //    cout << iR << "-" << arrPrtPeliculas[iR]->str() << endl;
-    //}
+
 }
 
 void Peliculas::reporteTodasLasPeliculas(){
-
+    cout << "Reporte" << endl;
+    double acum = 0;
+    for(int iR=0; iR < cantidad; iR++) {
+        cout << arrPrtPeliculas[iR]->str() << endl;
+        acum = acum + arrPrtPeliculas[iR]->getCalificacion();
+    }
+    cout << " " << endl;
+    cout << "Promedio calificaiones: " << acum/cantidad << endl;
+    cout << "Fin del reporte" << endl;
 }
+// metodo str de peliculas
+// calcula promedio de todas las calificaciones (csv a matriz, seleccionar fla y promedio)
+
 void Peliculas::reporteConCalificaciones(double _calificacion){
 
 }
@@ -55,16 +66,20 @@ void Peliculas::reporteGenero(string _genero){
 
 // metodos de acceso (GETS)
 Pelicula* Peliculas::getPtrPelicula(string _iD){
-
+    return new Pelicula();
 }
-int Peliculas::getCantidadPeliculas(){
 
+int Peliculas::getCantidadPeliculas(){
+    return cantidad;
 }
 
 // metodos modificadores SETS
 void Peliculas::setPtrPelicula(Pelicula *_ptrPelicula){
-
+    if (cantidad < 50) {
+        arrPrtPeliculas[cantidad++] = _ptrPelicula; //posicion 0 + 1
+    }
 }
-void Peliculas::setCantidadPeliculas(int _cantidad){
 
+void Peliculas::setCantidadPeliculas(int _cantidad){
+    cantidad = _cantidad;
 }
