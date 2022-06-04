@@ -1,34 +1,34 @@
 #include "episodio.h"
 
-episodio::episodio() {
+Episodio::Episodio() {
     titulo = "cap 1";
     temporada = 1;
     calificacion = 0;
 }
-episodio::episodio(string _titulo, int _temporada, double _calificacion){
+Episodio::Episodio(string _titulo, int _temporada, double _calificacion){
     titulo = _titulo;
     temporada = _temporada;
     calificacion = _calificacion;
 }
 
 // metodos modificadores
-void episodio::setTitulo(string _titulo){}
-void episodio::setTemporada(int _temporada){}
-void episodio::seCalificacion(double _calificacion){}
+void Episodio::setTitulo(string _titulo){}
+void Episodio::setTemporada(int _temporada){}
+void Episodio::seCalificacion(double _calificacion){}
 
 //metodos de acceso
-string episodio::getTitulo(){
+string Episodio::getTitulo(){
     return titulo;
 }
-int episodio::getTemporada(){
+int Episodio::getTemporada(){
     return temporada;
 }
-double episodio::getCalificacion(){
+double Episodio::getCalificacion(){
     return calificacion;
 }
 
 // otros metodos
-string episodio::str() {
+string Episodio::str() {
     return titulo + ", " + to_string(temporada) + ", " + to_string(calificacion);
 }
 

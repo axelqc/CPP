@@ -6,7 +6,7 @@
 using namespace std;
 
 
-class episodio
+class Episodio
 {
     protected:
         string titulo;
@@ -15,8 +15,8 @@ class episodio
 
     public:
         // metodos contrctures
-        episodio();
-        episodio(string _titulo, int _temporada, double _calificacion);
+        Episodio();
+        Episodio(string _titulo, int _temporada, double _calificacion);
 
         // metodos modificadores
         void setTitulo(string _titulo);

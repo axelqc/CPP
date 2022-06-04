@@ -1,39 +1,46 @@
 # depslib dependency file v1.0
-1653922861 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\main.cpp
+1654362401 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\main.cpp
 	<iostream>
 	"video.h"
 	"pelicula.h"
 	"serie.h"
 	"episodio.h"
 
-1653923003 c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\include\video.h
+1654361385 c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\include\video.h
 	<stdio.h>
 	<iostream>
 
-1653871073 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\src\video.cpp
+1654362221 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\src\video.cpp
 	"video.h"
 
-1653577605 c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\include\pelicula.h
+1654361582 c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\include\pelicula.h
 	"video.h"
 	<stdio.h>
 	<iostream>
 
-1653622684 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\src\pelicula.cpp
+1654361970 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\src\pelicula.cpp
 	"pelicula.h"
 
-1653880680 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\src\episodio.cpp
+1654361838 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\src\episodio.cpp
 	"episodio.h"
 
-1653880484 c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\include\episodio.h
+1654361841 c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\include\episodio.h
 	<stdio.h>
 	<iostream>
 
-1653879139 c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\include\serie.h
+1654362221 c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\include\serie.h
 	<stdio.h>
 	<iostream>
 	"video.h"
 	"episodio.h"
 
-1653883047 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\src\serie.cpp
+1654362401 source:c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\src\serie.cpp
 	"serie.h"
+
+1654216669 c:\users\axelc\onedrive\escritorio\semestre 2\periodo 3\poo 2\proyecto_axel_quiroga\tc1030_301_axel_quiroga\evidencia\include\peliculas.h
+	<stdio.h>
+	<iostream>
+	<sstream>
+	<fstream>
+	"pelicula.h"
 

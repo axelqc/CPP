@@ -1,18 +1,18 @@
 #include "serie.h"
 
 // se copia desde public hasta el final (endif)
-serie::serie():video() {
+Serie::Serie():Video() {
     cantidad=0;
 } //poner serie::
 
 
-serie::serie(string _iD, string _titulo, int _duracion, string _genero, double _calificacionPromedio): video(_iD, _titulo, _duracion, _genero, 0) {
+Serie::Serie(string _iD, string _titulo, int _duracion, string _genero, double _calificacionPromedio): Video(_iD, _titulo, _duracion, _genero, 0) {
     cantidad=0;
 }
 
 // metodos modificadores SETS
 // quitar ; y poner {}
-void serie::setEpisodio(int _index, episodio _episodio) {
+void Serie::setEpisodio(int _index, Episodio _episodio) {
     // validar que el index sea correcto (cantidad >= 0 and index < cantidad)
     // si no cumple el index no se cambia el episodio
 
@@ -20,29 +20,29 @@ void serie::setEpisodio(int _index, episodio _episodio) {
         episodios[_index] = _episodio;
 }
 
-void serie::setCantidad(int _cantidad){
+void Serie::setCantidad(int _cantidad){
     cantidad = _cantidad;
 }
 
 // metodos de acceso GETS
-episodio serie::getEpisodio(int _index){
-    episodio ep;
+Episodio Serie::getEpisodio(int _index){
+    Episodio ep;
     // valida que el index sea correcto
     // si no cumple el index no se cambia
 
     return episodios[_index];
-    return episodio();
+    return Episodio();
 
     // else return episodio de prueba se declara un episodio de prueba
 
 }
 
-int serie::getCantidad(){
+int Serie::getCantidad(){
     return cantidad;
 }
 
 // otros metodos
-double serie::calculaCalPromedio(){
+double Serie::calculaCalPromedio(){
     // cilco for que recorra
     double acum = 0;
     for(int index=0; index < cantidad; index ++)
@@ -55,7 +55,7 @@ double serie::calculaCalPromedio(){
         return 0;
 }
 
-string serie::str(){
+string Serie::str(){
 
     // concatenar todos los episodios de le serie
     string acum = "\n";

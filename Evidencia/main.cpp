@@ -3,29 +3,32 @@
 #include "pelicula.h"
 #include "serie.h"
 #include "episodio.h"
-#include "peliculas.h"
+
 
 using namespace std;
 
 int main()
 {
-    video lunes;
+    //peliculas directorioPeliculas{};
+    //directorioPeliculas.leerArchivo();
+
+    Video lunes;
     cout << lunes.str() << endl;
 
-    video martes("001", "Grown ups", 40, "Comedia", 100);
+    Video martes("001", "Grown ups", 40, "Comedia", 100);
     cout << martes.str() << endl;
 
-    pelicula jueves;
+    Pelicula jueves;
     cout << jueves.str() << endl;
 
-    pelicula miercoles("002", "Cafe", 120, "Documental", 90, 1);
+    Pelicula miercoles("002", "Cafe", 120, "Documental", 90, 1);
     cout << miercoles.str() << endl;
 
     //
-    serie stranger("003", "Stranger things", 500, "Sobrenatural", 50);
+    Serie stranger("003", "Stranger things", 500, "Sobrenatural", 50);
     cout << stranger.str() << endl;
 
-    episodio episodio1("Episodio Bien fumado", 1, 0);
+    Episodio episodio1("Episodio Bien fumado", 1, 0);
     cout << episodio1.str() << endl;
 
     stranger.setEpisodio(0, episodio1);
@@ -38,7 +41,7 @@ int main()
     // Declaracion arreglo de la clase video
     // se pone el asterisco
     // & ponerselo para indicar que son un arreglo de apuntadores
-    video *arrPtrVideo[] = {&martes, &jueves, &stranger};
+    Video *arrPtrVideo[] = {&martes, &jueves, &stranger};
 
     // Desplegar los prt (direcciones de memoria)
     // cout PTRs de video

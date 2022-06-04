@@ -9,22 +9,22 @@
 using namespace std;
 
 
-class serie: public video
+class Serie: public Video
 {
     private:
-        episodio episodios[5];
+        Episodio episodios[5];
         // cantidad de episodios
         int cantidad;
     public:
-        serie();
-        serie(string _iD, string _titulo, int _duracion, string _genero, double _calificacionPromedio);
+        Serie();
+        Serie(string _iD, string _titulo, int _duracion, string _genero, double _calificacionPromedio);
 
         // metodos modificadores SETS
-        void setEpisodio(int _index, episodio _episodio);
+        void setEpisodio(int _index, Episodio _episodio);
         void setCantidad(int _cantidad);
 
         // metodos de acceso GETS
-        episodio getEpisodio(int _index);
+        Episodio getEpisodio(int _index);
         int getCantidad();
 
         // otros metodos

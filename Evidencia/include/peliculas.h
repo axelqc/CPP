@@ -13,7 +13,7 @@ const int MAX_PEL = 50;
 class peliculas
 {
     private:
-        pelicula *arrPrtPeliculas[MAX_PEL];
+        Pelicula *arrPrtPeliculas[MAX_PEL];
         int cantidad;
     public:
         peliculas();
@@ -25,7 +25,7 @@ class peliculas
     void reporteGenero(string _genero);
 
     // metodos de acceso (GETS)
-    pellicula* getPtrPelicula(string _iD);
+    Pelicula* getPtrPelicula(string _iD);
     int getCantidadPeliculas();
 
     // metodos modificadores SETS
