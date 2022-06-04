@@ -3,7 +3,7 @@
 // remplazar ";" por { }
 
 // inicializar atributos de la clase
-video::video(){
+Video::Video(){
     iD = "00";
     titulo = "Blue sky";
     duracion = 93;
@@ -12,7 +12,7 @@ video::video(){
 }
 
 // constructor con parametros
-video::video (string _iD, string _titulo, int _duracion, string _genero, double _calificacionPromedio){
+Video::Video (string _iD, string _titulo, int _duracion, string _genero, double _calificacionPromedio){
     iD = _iD;
     titulo = _titulo;
     duracion = _duracion;
@@ -21,33 +21,33 @@ video::video (string _iD, string _titulo, int _duracion, string _genero, double 
 }
 
 // metodos modificadores
-void video::setId(string _iD){}
-void video::setTitulo(string _titulo){}
-void video::setDuracion(int _duracion){}
-void video::setGenero(string _genero){}
-void video::setCalificacion(double _calificacionPromedio){}
+void Video::setId(string _iD){}
+void Video::setTitulo(string _titulo){}
+void Video::setDuracion(int _duracion){}
+void Video::setGenero(string _genero){}
+void Video::setCalificacion(double _calificacionPromedio){}
 
 // metodos acceso
 // se le ponen return
-string video::getId(){
+string Video::getId(){
     return iD;
 }
-string video::getTitulo(){
+string Video::getTitulo(){
     return titulo;
 }
-int video::getDuracion(){
+int Video::getDuracion(){
     return duracion;
 }
-string video::getGenero(){
+string Video::getGenero(){
     return genero;
 }
-double video::getCalificacion(){
+double Video::getCalificacion(){
     return calificacionPromedio;
 }
 
 //otros metodos
 // return concatenanda todos los aributos
-string video::str(){
+string Video::str(){
     return iD + "," + titulo + "," + to_string(duracion) + "," + genero + "," + to_string(calificacionPromedio);
 }
 

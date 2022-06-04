@@ -5,7 +5,7 @@
 #include <iostream>
 using namespace std;
 
-class video
+class Video
 {
 
 // atributos de la classe
@@ -18,8 +18,8 @@ class video
 // metodos
     public:
         // metodos contructores
-        video();
-        video (string _iD, string _titulo, int _duracion, string _genero, double _calificacionPromedio);
+        Video();
+        Video (string _iD, string _titulo, int _duracion, string _genero, double _calificacionPromedio);
 
         // metodos modificadores
         void setId(string _iD);

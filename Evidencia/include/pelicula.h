@@ -7,7 +7,7 @@
 using namespace std;
 
 
-class pelicula : public video
+class Pelicula : public Video
 {
     protected:
         // atributos
@@ -15,9 +15,9 @@ class pelicula : public video
 
     public:
         // metodos contructores
-        pelicula();
-        pelicula(string _iD, string _titulo, int _duracion, string _genero, double _calificacionPromedio, int _oscares);
-        ~pelicula();
+        Pelicula();
+        Pelicula(string _iD, string _titulo, int _duracion, string _genero, double _calificacionPromedio, int _oscares);
+        ~Pelicula();
 
 
         // modiciadores - set
