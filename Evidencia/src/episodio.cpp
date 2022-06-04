@@ -12,9 +12,15 @@ Episodio::Episodio(string _titulo, int _temporada, double _calificacion){
 }
 
 // metodos modificadores
-void Episodio::setTitulo(string _titulo){}
-void Episodio::setTemporada(int _temporada){}
-void Episodio::seCalificacion(double _calificacion){}
+void Episodio::setTitulo(string _titulo){
+    titulo = _titulo;
+}
+void Episodio::setTemporada(int _temporada){
+    temporada = _temporada;
+}
+void Episodio::seCalificacion(double _calificacion){
+    calificacion = _calificacion;
+}
 
 //metodos de acceso
 string Episodio::getTitulo(){
