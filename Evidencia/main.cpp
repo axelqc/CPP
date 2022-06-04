@@ -11,6 +11,8 @@ int main()
 {
     Peliculas directorioPeliculas{};
     directorioPeliculas.leerArchivo();
+    cout << " " << endl;
+    directorioPeliculas.reporteTodasLasPeliculas();
 
 
 
