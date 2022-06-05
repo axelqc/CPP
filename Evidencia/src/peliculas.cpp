@@ -44,24 +44,27 @@ void Peliculas::leerArchivo()
 }
 
 void Peliculas::reporteTodasLasPeliculas(){
-    cout << "Reporte" << endl;
     double acum = 0;
     for(int iR=0; iR < cantidad; iR++) {
         cout << arrPrtPeliculas[iR]->str() << endl;
         acum = acum + arrPrtPeliculas[iR]->getCalificacion();
     }
-    cout << " " << endl;
     cout << "Promedio calificaiones: " << acum/cantidad << endl;
-    cout << "Fin del reporte" << endl;
 }
 // metodo str de peliculas
 // calcula promedio de todas las calificaciones (csv a matriz, seleccionar fla y promedio)
 
 void Peliculas::reporteConCalificaciones(double _calificacion){
-
+    for(int iR=0; iR < cantidad; iR++) {
+        if(arrPrtPeliculas[iR]->getCalificacion() == _calificacion)
+            cout << arrPrtPeliculas[iR]->str() << endl;
+    }
 }
 void Peliculas::reporteGenero(string _genero){
-
+    for(int iR=0; iR < cantidad; iR++) {
+        if(arrPrtPeliculas[iR]->getGenero() == _genero)
+            cout << arrPrtPeliculas[iR]->str() << endl;
+    }
 }
 
 // metodos de acceso (GETS)
