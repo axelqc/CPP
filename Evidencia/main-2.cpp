@@ -1,15 +1,18 @@
-#include <iostream>
-#include "video.h"
-#include "pelicula.h"
-#include "serie.h"
-#include "episodio.h"
-#include "peliculas.h"
-#include <iostream>
+//
+//  main.cpp
+//  SituacionProblemaFinal BUENA
+//
+//  Created by Ma. Guadalupe Roque on 5/21/22.
+//  Copyright © 2022 Invitado. All rights reserved.
+//
 
+
+#include <iostream>
+#include "Peliculas.hpp"
 
 int menuPeliculas(){
     int iOpcion;
-
+    
     cout <<
     "\n ** Peliculas " <<
     "\n1. Leer Peliculas  desde Archivo" <<
@@ -26,15 +29,15 @@ int menuPeliculas(){
 int main() {
     // se manda llamar al constructor - default
     Peliculas peliculas{};
-
+    
     int iOpcion;
     string sGenero, sId;
     double dCal;
-
+    
     // Leer el archivo de peliculas y cargarlo en el arreglo de apuntadores
     // dentro de la clase Peliculas
     peliculas.leerArchivo();
-
+    
     // 1o Inicializar la vcc antes del ciclo
     iOpcion = menuPeliculas();
     // 2a Incluir en la condicion la vcc
@@ -50,7 +53,7 @@ int main() {
             case 3:// 3. Reporte de todas las peliculas con cierta Calificacion" <<
                 cout << "Ingresa la calificacion:";
                 cin >> dCal;
-                peliculas.reporteConCalificaciones(dCal);
+                peliculas.reporteConCalificacion(dCal);
                 break;
             case 4: // 4. Reporte de todas las peliculas con cierto genero" <<
                 cout << "Ingresa el Genero:";
@@ -66,3 +69,4 @@ int main() {
     }
     return 0;
 }
+
