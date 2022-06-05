@@ -14,6 +14,10 @@ int main()
     cout << " " << endl;
     directorioPeliculas.reporteTodasLasPeliculas();
 
+    directorioPeliculas.reporteGenero("comedia");
+
+    directorioPeliculas.reporteConCalificaciones(6.5);
+
 
 
 
