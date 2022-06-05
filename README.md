@@ -6,7 +6,7 @@
 3. Reporte de peliculas que tienen cierta Calificacion
 4. Reporte de peliculas de cierto genero
 0. SALIR
-Teclea la opcion:2
+Teclea la opcion:2\n
 100,Pulp Fiction,178,accion,9.200000,1
 101,Titanic,194,romance,8.900000,11
 102,The Trial of the Chicago 7,129,drama,8.900000,0
