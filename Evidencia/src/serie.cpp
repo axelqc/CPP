@@ -46,8 +46,8 @@ int Serie::getCantidad(){
 double Serie::calculaCalPromedio(){
     // cilco for que recorra
     double acum = 0;
-    for(int index=0; index < cantidad; index ++)
-        acum = acum + episodios[index].getCalificacion();
+    for(int i=0; i < cantidad; i++)
+        acum = acum + episodios[i].getCalificacion();
 
     if (cantidad > 0)
         return acum/cantidad;
