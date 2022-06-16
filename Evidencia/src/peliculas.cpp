@@ -70,6 +70,7 @@ void Peliculas::reporteGenero(string _genero){
 // metodos de acceso (GETS)
 Pelicula* Peliculas::getPtrPelicula(string _iD){
     return new Pelicula();
+
 }
 
 int Peliculas::getCantidadPeliculas(){
