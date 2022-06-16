@@ -97,3 +97,234 @@ Ingresa el Genero:comedia
 4. Reporte de peliculas de cierto genero
 0. SALIR
 Teclea la opcion:0
+
+## Prueba 1
+S500,Berserk,20,fantasia,5.000000
+The Black Swordsman, 1, 5
+Eclipse, 1, 5
+Perpetual Time, 1, 5
+
+S501,Luis Miguel,45,drama,4.000000
+Mam├í Mam├í, 1, 4
+
+S502,Big Bang Theory,20,comedia,4.000000
+Mi verdadero lugar de origen, 1, 4
+
+S503,The office,30,comedia,4.000000
+Niagara: Part 2, 6, 4
+
+S504,Friends,20,comedia,4.000000
+The One Everybody Finds Out, 5, 4
+
+S505,Invincible,40,accion,0.000000
+
+S506,Vikingos,42,accion,4.000000
+Muerte a la reina, 4, 4
+Balder, 5, 4
+
+S507,Legion,60,ficcion,4.000000
+Chapter 1, 1, 4
+
+S508,Brooklyn Nine-Nine,22,comedia,4.000000
+Pontiac Bandit, 1, 4
+HalloVeen, 5, 4
+Lights Out, 7, 4
+
+S509,Modern Family,21,comedia,3.666667
+Fifteen Percent , 1, 4
+Farm Strong , 5, 4
+Dear Beloved Family , 9, 3
+
+S510,WandaVision,35,drama,3.666667
+Breaking the Fourth Wall, 1, 4
+We Interrupt this Program, 1, 4
+Don't touch that Dial, 1, 3
+
+S511,Teen Wolf,44,fantasia,4.000000
+Anchors, 3, 3
+Perishable, 4, 5
+
+S512,Elite,45,drama,3.500000
+Polo, 3, 4
+0 horas desaparecido, 2, 3
+
+S513,How I Met Your Mother,22,comedia,4.000000
+Slap Bet, 2, 4
+
+S514,The falcon and the winter soldier,52,accion,4.250000
+New World Order, 1, 4
+The Star-Spangled Man, 1, 4
+Power Broker, 1, 4
+The Whole World IS Watching, 1, 5
+
+S515,Community,22,comedia,0.000000
+
+S516,Peaky Blinders,55,drama,4.000000
+Black Tuesday, 5, 4
+The Duel, 4, 4
+The Noose, 4, 4
+
+S517,Formula 1: Drive to Survive,40,accion,4.000000
+All to Play For, 1, 4
+The King of Spain, 1, 4
+Redemption, 1, 4
+
+S518,Lucifer,43,crimen,3.333333
+Sin-Eater, 2, 3
+Off the Record, 3, 4
+Our Mojo, 5, 3
+
+S519,Doctor Who,45,ficci├│n,3.000000
+The Woman Who Fell to Earth , 11, 3
+
+Promedio calificaiones: 3.52083
+
+## Prueba 2
+S501,Luis Miguel,45,drama,4.000000
+Mam├í Mam├í, 1, 4
+
+S502,Big Bang Theory,20,comedia,4.000000
+Mi verdadero lugar de origen, 1, 4
+
+S503,The office,30,comedia,4.000000
+Niagara: Part 2, 6, 4
+
+S504,Friends,20,comedia,4.000000
+The One Everybody Finds Out, 5, 4
+
+S506,Vikingos,42,accion,4.000000
+Muerte a la reina, 4, 4
+Balder, 5, 4
+
+S507,Legion,60,ficcion,4.000000
+Chapter 1, 1, 4
+
+S508,Brooklyn Nine-Nine,22,comedia,4.000000
+Pontiac Bandit, 1, 4
+HalloVeen, 5, 4
+Lights Out, 7, 4
+
+S511,Teen Wolf,44,fantasia,4.000000
+Anchors, 3, 3
+Perishable, 4, 5
+
+S513,How I Met Your Mother,22,comedia,4.000000
+Slap Bet, 2, 4
+
+S516,Peaky Blinders,55,drama,4.000000
+Black Tuesday, 5, 4
+The Duel, 4, 4
+The Noose, 4, 4
+
+S517,Formula 1: Drive to Survive,40,accion,4.000000
+All to Play For, 1, 4
+The King of Spain, 1, 4
+Redemption, 1, 4
+
+S502,Big Bang Theory,20,comedia,4.000000
+Mi verdadero lugar de origen, 1, 4
+
+S503,The office,30,comedia,4.000000
+Niagara: Part 2, 6, 4
+
+S504,Friends,20,comedia,4.000000
+The One Everybody Finds Out, 5, 4
+
+S508,Brooklyn Nine-Nine,22,comedia,4.000000
+Pontiac Bandit, 1, 4
+HalloVeen, 5, 4
+Lights Out, 7, 4
+
+S509,Modern Family,21,comedia,3.666667
+Fifteen Percent , 1, 4
+Farm Strong , 5, 4
+Dear Beloved Family , 9, 3
+
+S513,How I Met Your Mother,22,comedia,4.000000
+Slap Bet, 2, 4
+
+S515,Community,22,comedia,0.000000
+
+## Prueba 3
+S500,Berserk,20,fantasia,5.000000
+The Black Swordsman, 1, 5
+Eclipse, 1, 5
+Perpetual Time, 1, 5
+
+S501,Luis Miguel,45,drama,4.000000
+Mam├í Mam├í, 1, 4
+
+S502,Big Bang Theory,20,comedia,4.000000
+Mi verdadero lugar de origen, 1, 4
+
+S503,The office,30,comedia,4.000000
+Niagara: Part 2, 6, 4
+
+S504,Friends,20,comedia,4.000000
+The One Everybody Finds Out, 5, 4
+
+S505,Invincible,40,accion,0.000000
+
+S506,Vikingos,42,accion,4.000000
+Muerte a la reina, 4, 4
+Balder, 5, 4
+
+S507,Legion,60,ficcion,4.000000
+Chapter 1, 1, 4
+
+S508,Brooklyn Nine-Nine,22,comedia,4.000000
+Pontiac Bandit, 1, 4
+HalloVeen, 5, 4
+Lights Out, 7, 4
+
+S509,Modern Family,21,comedia,3.666667
+Fifteen Percent , 1, 4
+Farm Strong , 5, 4
+Dear Beloved Family , 9, 3
+
+S510,WandaVision,35,drama,3.666667
+Breaking the Fourth Wall, 1, 4
+We Interrupt this Program, 1, 4
+Don't touch that Dial, 1, 3
+
+S511,Teen Wolf,44,fantasia,4.000000
+Anchors, 3, 3
+Perishable, 4, 5
+
+S512,Elite,45,drama,3.500000
+Polo, 3, 4
+0 horas desaparecido, 2, 3
+
+S513,How I Met Your Mother,22,comedia,4.000000
+Slap Bet, 2, 4
+
+S514,The falcon and the winter soldier,52,accion,4.250000
+New World Order, 1, 4
+The Star-Spangled Man, 1, 4
+Power Broker, 1, 4
+The Whole World IS Watching, 1, 5
+
+S515,Community,22,comedia,0.000000
+
+S516,Peaky Blinders,55,drama,4.000000
+Black Tuesday, 5, 4
+The Duel, 4, 4
+The Noose, 4, 4
+
+S517,Formula 1: Drive to Survive,40,accion,4.000000
+All to Play For, 1, 4
+The King of Spain, 1, 4
+Redemption, 1, 4
+
+S518,Lucifer,43,crimen,3.333333
+Sin-Eater, 2, 3
+Off the Record, 3, 4
+Our Mojo, 5, 3
+
+S519,Doctor Who,45,ficci├│n,3.000000
+The Woman Who Fell to Earth , 11, 3
+
+Promedio calificaiones: 3.52083
+
+## Prueba 4
+--------------------------
