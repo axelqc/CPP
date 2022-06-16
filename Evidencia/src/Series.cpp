@@ -29,7 +29,7 @@ void Series::leerArchivo() {
             row[iRow++] = dato;
         }
         // crear un objeto de la clase Serie, new retorna un pointer
-        ArrPrtSeries[cantidad] = new Serie(row[0], row[1], stoi (row[2]), row[3],stod (row[4]));
+        ArrPrtSeries[cantidad] = new Serie(row[0], row[1], stoi(row[2]), row[3],stod(row[4]));
         //cout << ArrPrtSeries[iS]->str() << endl;
 
         // vamos por la siguiente serie del archivo, se incrementa para la siguiente
@@ -70,7 +70,10 @@ void Series::leerArchivo() {
 
 void Series::reporteTodasLasSeries(){
    double acum = 0;
+   double av = 0;
    for(int iS=0; iS < cantidad; iS++) {
+        av = ArrPrtSeries[iS] -> calculaCalPromedio();
+        ArrPrtSeries[iS] -> setCalificacion(av);
         cout << ArrPrtSeries[iS]->str() << endl;
         //cout << *ArrPrtSeries[iS] << endl;
         acum = acum + ArrPrtSeries[iS]->getCalificacion();
@@ -93,11 +96,12 @@ void Series::reporteGenero(string _genero){
 }
 
 void Series::calcularCalificacionSeries(){
-   double acum = 0;
-   for(int iS=0; iS < cantidad; iS++) {
-        acum = acum + ArrPrtSeries[iS]->getCalificacion();
+    double av;
+    for(int i = 0; i < cantidad; i++){
+        av = ArrPrtSeries[i] -> calculaCalPromedio();
+        ArrPrtSeries[i] -> setCalificacion(av);
     }
-    cout << "Promedio calificaiones: " << acum/cantidad << endl;
+
 }
 
 Serie* Series::getPtrSerie(string _iD){
