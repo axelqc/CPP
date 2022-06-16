@@ -28,8 +28,9 @@ class Episodio
         int getTemporada();
         double getCalificacion();
 
+
         // otros metodos
-        string str();
+        string str() const;
 
 
 };

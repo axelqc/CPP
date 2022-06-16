@@ -6,6 +6,7 @@
 #include "video.h"
 //indicando composicion
 #include "episodio.h"
+#include <ostream>
 using namespace std;
 
 
@@ -30,6 +31,8 @@ class Serie: public Video
         // otros metodos
         double calculaCalPromedio();
         string str();
+
+        friend ostream & operator << (ostream &out, const Serie &s);
 };
 
 #endif // SERIE_H
